@@ -4,8 +4,18 @@
 
     .header-content{
         margin-left: 40px;
+        padding: 20px;
     }
-
+    
+    .menu ul{
+        display: none;
+    }
+    #logo{
+        display: inline;
+        height: 24px;
+        width: 24px;
+        padding-right: 50px;
+    }
     .banner-content {
         background-position: center;
         object-fit: contain;
