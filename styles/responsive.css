@@ -47,6 +47,7 @@
     .tour {
         flex-direction: column;
         gap: 20px;
+        flex-wrap: wrap;
 
     }
 
@@ -62,9 +63,9 @@
     }
 
     .option li {
-        /* text-align: center; */
+        text-align: center;
         text-wrap: wrap;
-        /* margin: 0 auto; */
+        margin: 0 auto;
     }
 
     .first-description,
@@ -72,6 +73,14 @@
     .read-more,
     .tour-pic {
         margin-left: 15px;
+    }
+    .destination-text {
+        text-align: center;
+        text-wrap: wrap;
+    }
+    .destination-description{
+        text-wrap: wrap;
+        text-align: center;
     }
 
     .grid-container {
@@ -81,11 +90,6 @@
         gap: 15px;
         width: 335px;
         height: 176px;
-
-
-
-
-
     }
 
     .grid-item-1 {
@@ -94,9 +98,6 @@
         width: 335px;
         height: 176px;
         background-size: cover;
-
-
-
     }
 
     .grid-item-2 {
@@ -105,8 +106,6 @@
         width: 335px;
         height: 176px;
         background-size: cover;
-
-
     }
 
     .grid-item-3 {
@@ -155,6 +154,19 @@
         width: 335px;
         height: 176px;
         background-size: cover;
+    }
+
+    .card-section {
+        flex-direction: column;
+        gap: 20px;
+        margin: 0 auto;
+        width: 335px;
+        height: 290px;
+    }
+    .card-section-2{
+        margin: 0 auto;
+        width: 335px;
+        height: 290px; 
     }
 
 

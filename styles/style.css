@@ -182,6 +182,7 @@ li a {
 
 .destination-text {
     text-align: center;
+    text-wrap: wrap;
 
 }
 
@@ -197,6 +198,7 @@ li a {
     color: rgba(19, 19, 24, 0.70);
     font-size: 1rem;
     font-weight: 400;
+    text-wrap: wrap;
 }
 
 .grid-container {
@@ -327,4 +329,106 @@ li a {
     justify-content: center;
     font-size: 1.75rem;
     font-weight: 800;
+}
+
+.heading-00 {
+    text-align: center;
+}
+
+.main-h3 {
+    color: #131318;
+    font-size: 2.50rem;
+    font-weight: 800;
+    margin-top: 100px;
+    margin-bottom: 24px;
+}
+
+.heading-p1 {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 45px;
+}
+
+.card-section {
+    display: flex;
+    width: 1170px;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.card-section {
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.card-section-2 {
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    display: flex;
+    margin: 0 auto;
+    margin-top: 25PX;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.card-heading-1 {
+    color: #131318;
+    font-size: 1.50rem;
+    font-weight: 800;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+.card-heading-2 {
+    color: #131318;
+    font-size: 1.50rem;
+    font-weight: 800;
+    margin-top: 32px;
+    margin-bottom: 16px;
+
+}
+
+.card-section img {
+    width: 64px;
+    height: 64px;
+}
+
+.picking-hotel {
+    width: 565px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.map {
+    width: 565px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.guarantee-heading {
+    color: #131318;
+    font-size: 1.50rem;
+    font-weight: 800;
+    margin-top: 32px;
+    margin-bottom: 16px;
+
+}
+
+.guarantee-section p {
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
 }
