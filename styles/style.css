@@ -432,3 +432,119 @@ li a {
     font-size: 1rem;
     font-weight: 400;
 }
+
+.newsletter-section {
+    display: flex;
+    justify-content: space-between;
+    width: 1110px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.newsletter-text {
+    width: 474px;
+    height: 422px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+
+}
+
+.newsletter-heading {
+    color: #131318;
+    font-size: 1.50rem;
+    font-weight: 800;
+    margin: 40px 305px 16px 40px;
+}
+
+.newsletter-description {
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-right: 84px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(19, 19, 24, 0.10);
+    padding-bottom: 25px;
+}
+
+.name {
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    outline: none;
+    border: none;
+    margin-bottom: 15px;
+    margin-left: 40px;
+    margin-top: 25px;
+}
+
+.email-field {
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    outline: none;
+    border: none;
+    margin-left: 40px;
+}
+
+.subscribe {
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 800;
+    border: none;
+    outline: none;
+    margin: 24px 40px 50px;
+}
+
+
+::placeholder {
+    padding: 30px;
+
+}
+
+.travel-pic {
+    /* transform: rotate(-19.628deg); */
+    /* border-radius: 16px;
+    background: #FF5400; */
+    background-image: url(../Images/Rectangle\ 8\ \(1\).png);
+    width: 672px;
+    height: 422px;
+    margin-left: 30px;
+    border-radius: 16px;
+    position: relative;
+}
+
+.travel-text {
+    width: 300px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    border-radius: 16px;
+    background: #FF5400;
+    position: absolute;
+    top: 61%;
+    left: 49%;
+
+}
+
+.travel-heading-1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 1.50rem;
+    font-weight: 400;
+    padding-top: 20px;
+}
+
+.travel-heading-2 {
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center;
+
+}
